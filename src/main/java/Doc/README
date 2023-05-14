@@ -1,0 +1,9 @@
+// PENDIENTE POR REVISAR
+//
+// - documento explicando patron de diseño en el código existente no encontrado
+// - generalmente, buena aplicación del patron método de la plantilla - pero ver comentarios
+// - Duplicación en metodo "processHeaders" en CSVLabeled y CSCUnlabeledFileReader
+// - Existe la posibilidad de reducir aún más el código duplicado,
+//   reutilizando el procesamiento de una fila (sin etiqueta) al procesar una fila con etiqueta.
+//   Al final, la funcionalidad es la misma, excepto que hay un elemento adicional: la etiqueta.
+// - faltan pruebas para CSVUnlabeledFileReader

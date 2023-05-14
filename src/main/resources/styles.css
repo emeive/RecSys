@@ -1,0 +1,109 @@
+/* styles.css */
+
+.root {
+    -fx-background-color: #181818;
+}
+
+.custom-button {
+    -fx-background-color: #1DB954;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.custom-button:hover {
+    -fx-background-color: #1ed760;
+}
+
+.custom-button:pressed {
+    -fx-background-color: #14833b;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.custom-label {
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+}
+
+.custom-label2 {
+    -fx-text-fill: #1ed760;
+    -fx-font-size: 15px;
+}
+
+
+.custom-text-field {
+    -fx-background-color: #282828;
+    -fx-text-fill: white;
+    -fx-border-color: #282828;
+}
+
+/* Estilo para ListView */
+.list-view {
+    -fx-background-color: #282828;
+    -fx-control-inner-background: #282828;
+    -fx-cell-hover-color: #333333;
+}
+
+.list-cell {
+    -fx-text-fill: #B3B3B3;
+}
+
+.list-view .scroll-bar {
+    -fx-background-color: #282828;
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: #555555;
+}
+
+/* Estilo para Spinner */
+.spinner {
+    -fx-background-color: #282828;
+}
+
+.spinner .text-field {
+    -fx-background-color: #282828;
+    -fx-text-fill: white;
+}
+
+.spinner .increment-arrow,
+.spinner .decrement-arrow {
+    -fx-background-color: #1DB954;
+}
+
+.spinner .increment-arrow:hover,
+.spinner .decrement-arrow:hover {
+    -fx-background-color: #1ed760;
+}
+
+.spinner .increment-arrow:pressed,
+.spinner .decrement-arrow:pressed {
+    -fx-background-color: #14833b;
+}
+
+.spinner .increment-arrow:disabled,
+.spinner .decrement-arrow:disabled {
+    -fx-background-color: #888888;
+}
+
+/* Estilo para RadioButton */
+.radio-button {
+    -fx-text-fill: #B3B3B3;
+
+.radio-button:selected {
+    -fx-text-fill: #1DB954;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: #1DB954;
+}
+
+
+
